@@ -1,100 +1,65 @@
-:root{
-
-   --primary :#3DCFD3;
-   --dark:#161616;
-   --pure:#FFFFFF;
-   --ternary:#898989;
-   --light:#F2F2F2;
-
-}
 *{
 
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-    -webkit-font-smotthing: antialised;
-
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
-header{
-
-    background: var(--dark);
-    height: 800px;
-    ;
-}
-.container{
-
-max-width:1152px;
-padding:0 15px;
-margin:0 auto;
-
-}
-header nav .left a{
-
-color:var(--pure);
-text-decoration:none;
-margin-right: 2rem;
-text-transform:uppercase ;
-transition: all .3s ease ;
-
-}
-header nav .left a:hover{
-
-color:var(--primary);
-
-}
-
-.flex{
+ /* navbar */
+ .navbar{
 display:flex;
+justify-content:center;
+align-items:center;
+background-color:rgba(0,0,0,0.5);
+position: sticky;
+top:0;
 
+
+
+ }
+ .navbar ul{
+
+display:flex;
+list-style:none;
+margin:20px 0px;
 }
-.items-center{
+.navbar ul li{
 
-    align-items:center;
+font-family:century;
+font-size: 1.1rem;
+font-weight: bold;
 }
-.justify-between{
+.navbar ul li a{
 
-    justify-content: space-between;
+text-decoration: none;
+color:white;
+padding:8px 25px;
+transition: all .5s ease;
 }
-body{
+.navbar ul li a:hover{
 
-font-family:'arial'
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
 }
-header nav{
-padding:2rem 0;
+ /* home select */
+ .home{
+    display:flex;
+    flex-direction:column;
+    background-color: rgba(0,0,0,0.5);
+    height:840px;
+    
+  }
 
-
-}
-header nav .branding{
-margin-right:3rem;
-
-}
-.btn{
-
-padding:0.8rem 3rem;
-font-size: 1rem;
-font-weight:600;
-cursor:pointer;
-border:2px solid transparent;
-text-transform: uppercase;
-transition:all 0.3s ease ;
-
-
-}
-.btn-primary{
  
-    background: var(--primary);
-
-
-}
-.btn-primary:hover{
-
-background:transparent;
-border-color: var(--primary);
-color: var(--primary);
-
-} 
-.photo{
-
-width: 30%;
-height: 40%;
-}
+#home::before{
+      content: "";
+      position:absolute;
+      top: 0;
+      right: 0;
+      background-image: url('./images/what.jpg') ;
+      height:900px;
+      width:100%;  
+      z-index: -1;
+      opacity: .8;
+    
+   }
