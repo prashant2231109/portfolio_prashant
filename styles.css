@@ -35,7 +35,7 @@ font-weight: bold;
 text-decoration: none;
 color:white;
 padding:8px 25px;
-transition: all .5s ease;
+transition: all .s ease;
 }
 .navbar ul li a:hover{
 
@@ -97,7 +97,7 @@ transition: .6s ease;
 cursor:pointer;
 background-color:white;
 color:black;
-box-shadow: 0 0 5px white,0 0 10px white, 0 0 15px white;
+box-shadow: 0 0 5px white;
 font-weight: bold;
 }
 /* about section */
@@ -142,7 +142,7 @@ padding :10px;
 display:flex;
 flex-direction: column;
 background-color: rgba(0,0,0,0.5);
-color:white;
+color:rgb(199, 63, 63);
 align-items:center;
 padding: 20px;
 
@@ -181,11 +181,8 @@ flex-direction: column;
 width: 350px;
 height:450px;  
 border: 1px solid black;
-margin:10px;
-align-items: center;
-text-align: justify;
-padding:10px ;
-border-radius: 15px;
+padding:45px ;
+border-radius: 20px;
 background: linear-gradient(to top,rgb(255,45,45) 50%, white 50%);
 background-size:100% 200%;
 transition:all .8 ease;
@@ -212,8 +209,7 @@ box-shadow:0 0 20px  rgb(255,45,45);
 .form{
 
     display:flex;
-    flex-direction:column; 
-    box-sizing: border-box; 
+    flex-direction:column;  
     align-items: center;
     margin:20px 0px;
 }

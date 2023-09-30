@@ -1,11 +1,11 @@
 #home{
 
-    height:820px;
+    height:800px;
 
 }
 .headings{
 
-font-size:1.7rem;
+font-size:1.5rem;
 }
 #pic img{
 
@@ -20,7 +20,7 @@ font-size:1.5rem;
 /*porfolio*/
 .gallery img{
 
-   width: 250px;
-   height: 20px; 
+   width: 245px;
+   height: 25px; 
    margin: 10px;
 }
